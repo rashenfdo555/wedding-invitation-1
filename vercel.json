@@ -1,10 +1,18 @@
 {
   "functions": {
-    "api/**/*.php": {
+    "*.php": {
       "runtime": "vercel-php@0.7.1"
     }
   },
   "routes": [
+    {
+      "src": "/assets/(.*)",
+      "dest": "/assets/$1"
+    },
+    {
+      "src": "/submit-rsvp.php",
+      "dest": "/submit-rsvp.php"
+    },
     {
       "src": "/(.*)",
       "dest": "/index.php"
