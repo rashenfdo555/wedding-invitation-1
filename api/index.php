@@ -31,7 +31,7 @@ $config = [
     'venue_address'    => 'සූරිය රිසෝර්ට්, වයික්කාල',
 
     'google_maps_url'  => 'https://maps.app.goo.gl/UdC9RugA9bXFrA7u6', 
-    'whatsapp_phone'   => '94771234567'  
+    'whatsapp_phone'   => '94767126118'  
 ];
 ?>
 <!DOCTYPE html>
