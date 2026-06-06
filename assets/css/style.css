@@ -85,7 +85,7 @@ body {
 .btn-open:hover { transform: translateY(-2px); }
 
 .intro-heading { font-size: 2.4rem; color: var(--gold); opacity: 0; margin-bottom: 15px; }
-.intro-subheading { font-size: 2.6rem; color: #ffffff; opacity: 0; }
+.intro-subheading { font-size: 2rem; color: #ffffff; opacity: 0; }
 
 .run-anim-1 { animation: luxuryReveal 2.2s cubic-bezier(0.25, 1, 0.5, 1) forwards; }
 .run-anim-2 { animation: luxuryReveal 2.2s cubic-bezier(0.25, 1, 0.5, 1) forwards 2.2s; }
