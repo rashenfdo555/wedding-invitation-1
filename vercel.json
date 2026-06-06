@@ -1,6 +1,6 @@
 {
   "functions": {
-    "api/**/*.php": {
+    "api/*.php": {
       "runtime": "vercel-php@0.9.0"
     }
   },
@@ -11,11 +11,11 @@
     },
     {
       "src": "/submit-rsvp.php",
-      "dest": "/submit-rsvp.php"
+      "dest": "/api/submit-rsvp.php"
     },
     {
       "src": "/(.*)",
-      "dest": "/index.php"
+      "dest": "/api/index.php"
     }
   ]
 }
