@@ -106,7 +106,7 @@ body {
 .top-decor { display: flex; align-items: center; justify-content: center; gap: 12px; color: var(--gold); margin-bottom: 8px; }
 .gold-line { width: 50px; height: 1px; background: var(--gold); }
 .blessing { font-size: 1.15rem; color: var(--text-dark); font-weight: 700; }
-.couple-names { font-size: 2rem; color: var(--crimson-name); margin: 10px 0; font-weight: 700; }
+.couple-names { font-size: 4rem; color: var(--crimson-name); margin: 10px 0; font-weight: 700; }
 .invitation-text { font-size: 0.9rem; color: var(--text-muted); line-height: 1.7; }
 
 .couple-frame-container { padding: 0 24px; margin-top: 10px; position: relative; z-index: 2; }
